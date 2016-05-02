@@ -1,29 +1,39 @@
-
-@media (min-width: 48rem){
-  .content {
-      width: 46rem;
-  }
-}
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
 }
-.top-navigation .links li {
-  display: inline-block;
-  margin-left: 1.563rem;
+.top-navigation {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+.top-navigation > .content {
+  height: 4.375rem;
 }
 .top-navigation .links {
   margin-top: 1.7rem;
   float: right;
 }
-.top-navigation {
-  position: fixed;
-  width: 100%;
-}
-.top-navigation > .content {
-  height: 4.375rem;
+.top-navigation .links li {
+  display: inline-block;
+  margin-left: 1.563rem;
 }
 .top-navigation .logo {
   height: 4.375rem;
+}
+@media (min-width: 48rem){
+  .content {
+      width: 46rem;
+  }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
 }
