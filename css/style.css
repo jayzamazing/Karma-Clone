@@ -1,7 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #838994;
+  letter-spacing: 0.03em;
+  -webkit-font-smoothing: antialiased;
+}
+.top-navigation .links li:hover {
+  color: #4c5058;
+}
 .content {
   padding: 0 0.938rem;
   margin: 0 auto;
   min-width: 37.5rem;
+  box-sizing: border-box;
 }
 .top-navigation {
   position: fixed;
@@ -14,6 +25,10 @@
 .top-navigation .links {
   margin-top: 1.7rem;
   float: right;
+}
+.top-navigation .links > .active {
+  color: #4c5058;
+  font-weight: 500;
 }
 .top-navigation .links li {
   display: inline-block;
