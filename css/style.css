@@ -1,3 +1,4 @@
+
 html {
   box-sizing: border-box;
 }
@@ -11,6 +12,9 @@ body {
   letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
 }
+/**
+* Navigation
+**/
 .top-navigation .links li:hover {
   color: #4c5058;
 }
@@ -42,6 +46,16 @@ body {
 .top-navigation .logo {
   height: 4.375rem;
 }
+/**
+* Introduction
+**/
+.introduction {
+  background-image: url('../img/first-background.jpg');
+  
+}
+/**
+* Responsive Design
+**/
 @media (min-width: 48rem){
   .content {
       width: 46rem;
