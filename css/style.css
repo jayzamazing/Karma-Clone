@@ -9,9 +9,7 @@ html, div, h1, h3, p {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   color: #838994;
-  letter-spacing: 0.03em;
   -webkit-font-smoothing: antialiased;
 }
 /**
@@ -36,6 +34,7 @@ body {
 .top-navigation .links {
   margin-top: 1.7rem;
   float: right;
+  font-size: 1.04rem;
 }
 .top-navigation .links > .active {
   color: #4c5058;
@@ -54,26 +53,46 @@ body {
 .introduction {
   background-image: url('../img/first-background.jpg');
   background-size:cover;
-  height: 45rem;
-  background-position: center;
+  height: 45.938rem;
+  background-position: center bottom;;
   overflow: auto;
-}
-.introduction .content {
-  margin-top: 20rem;
-  text-align: center;
 }
 .introduction h1,
 .introduction h3 {
   font-weight: 300;
   color: #fff;
+  text-align: center;
 }
 .introduction h1 {
-  font-size: 3rem;
-  margin-top: 18rem;
+  font-size: 3.125rem;
+  margin-top: 17.5rem;
 }
 .introduction h3 {
-  font-size: 1.5rem;
-  margin-top: 1rem;
+  font-size: 1.563rem;
+  margin-top: 1.25rem;
+}
+/**
+* Button
+**/
+.introduction .buttons {
+  text-align: center;
+  margin-top: 1.563rem;
+
+}
+button {
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  color: white;
+  width: 9.688rem;
+  font-size: 1.125rem;
+}
+button:hover {
+  background-color: #d9400e;
+  border-color: #cf3d03;
 }
 /**
 * Responsive Design
