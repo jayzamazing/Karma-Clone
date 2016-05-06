@@ -1,10 +1,14 @@
-html, div, h1, h2, h3, p {
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
 }
 *, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
   box-sizing: inherit;
 }
 body {
@@ -113,6 +117,8 @@ button:hover {
 .cases .devices {
   width: 32%;
   display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding-top: 2rem;
   vertical-align: top;
