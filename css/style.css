@@ -13,7 +13,6 @@ html {
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: #838994;
   -webkit-font-smoothing: antialiased;
 }
 /**
@@ -40,6 +39,8 @@ body {
   margin-top: 1.7rem;
   float: right;
   font-size: 1.04rem;
+  color: #838994;
+
 }
 .top-navigation .links > .active {
   color: #4c5058;
@@ -104,13 +105,13 @@ button:hover {
 */
 .cases {
   text-align: center;
-  color: #1d1e21;
   margin-top: 8rem;
 }
 .cases .content{
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
+  color: #1d1e21;
 }
 .cases .caption {
   margin-top: 2rem;
@@ -133,13 +134,31 @@ button:hover {
   font-size: 2.75rem;
 }
 /**
+* Footer
+**/
+.social {
+  text-align: center;
+  padding-bottom: 10rem;
+}
+.social .content {
+  font-weight: 300;
+
+}
+.social .copyright {
+  color: #787c87;
+  font-size: .85rem;
+}
+.social h5 {
+  font-weight: 400;
+}
+.social hr {
+  margin-top: 2rem;
+  border: 0;
+  border-top: 1px solid #e6e6e6;
+}
+/**
 * Flexbox implementation
 */
-.none {
-  -ms-flexbox: none;
-  -webkit-flex: none;
-  flex: none;
-}
 .flex1 {
   -ms-flexbox: 1;
   -webkit-flex: 1;
