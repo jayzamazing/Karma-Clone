@@ -111,12 +111,11 @@ button:hover {
   margin-top: 8rem;
 }
 .cases .devices {
-  width: 33.3333333%;
+  width: 32%;
   display: inline-block;
-  border: 1px solid black;
   box-sizing: border-box;
-  height: 8em;
-  margin-top: 2rem;
+  padding-top: 2rem;
+  vertical-align: top;
 }
 .cases h2 {
   font-weight: 300;
