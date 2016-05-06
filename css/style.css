@@ -102,6 +102,16 @@ button:hover {
 /**
 * Images
 */
+.cases {
+  text-align: center;
+  color: #1d1e21;
+  margin-top: 8rem;
+}
+.cases .content{
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
 .cases .caption {
   margin-top: 2rem;
 }
@@ -109,13 +119,8 @@ button:hover {
   font-weight: 400;
   font-size: 1.5rem;
 }
-.cases .content {
-  text-align: center;
-  color: #1d1e21;
-  margin-top: 8rem;
-}
 .cases .devices {
-  width: 32%;
+  width: 33.3333333%;
   display: inline-block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -126,6 +131,19 @@ button:hover {
 .cases h2 {
   font-weight: 300;
   font-size: 2.75rem;
+}
+/**
+* Flexbox implementation
+*/
+.none {
+  -ms-flexbox: none;
+  -webkit-flex: none;
+  flex: none;
+}
+.flex1 {
+  -ms-flexbox: 1;
+  -webkit-flex: 1;
+  flex: 1;
 }
 /**
 * Responsive Design
